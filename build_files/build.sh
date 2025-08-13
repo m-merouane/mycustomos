@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y tmux
-flatpak install app/com.discordapp.Discord/x86_64/stable
+flatpak install -y --noninteractive app/com.discordapp.Discord/x86_64/stable
 
 # Use a COPR Example:
 #
